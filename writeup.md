@@ -14,7 +14,7 @@
 
 My pipeline consists the next 7 steps:
 
-1.1. Loading and resize image to size appropriate for detection algorithms (960, 540)
+1.1. Load and resize image to size appropriate for detection algorithms (960, 540)
 
 ![alt text][im1]
 
@@ -40,13 +40,13 @@ This step consists some sub-steps:
 
 1.6.1. Group and filter lines on left and right with slope
 
-1.6.2. Extrapolate lines to tip and bottom border of the region
+1.6.2. Extrapolate lines to top and bottom border of the region
 
 1.6.3. Average all lines to one line
 
 ![alt text][im6]
 
-1.7. Draw right and lift lane lines on the initial image
+1.7. Draw right and left lane lines on the initial image
 
 ![alt text][im7]
 
